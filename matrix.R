@@ -116,15 +116,4 @@ mat_sym(C)
 # Determinant of a matrix
 det
 
-# Identity matrix
-mat_indt <- function(mat1) {
-  cond = mat_mul(mat1, t(mat1))
-  if(cond == 1){
-    return ('This is a Identity Matrix')
-  }else{
-    return ('This is not a Identity Matrix')
-  }
-}
-
-mat_indt(A)
 
